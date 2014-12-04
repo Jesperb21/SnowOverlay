@@ -240,7 +240,7 @@ namespace TestOverlay
             {
                 case "almost none":
                     spawn = 100;
-                    clusterSize = 2;
+                    clusterSize = 3;
                     break;
                 case "Few":
                     spawn = 50;
