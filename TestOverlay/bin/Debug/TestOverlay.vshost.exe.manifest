@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TestOverlay.exe" size="12781056">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TestOverlay.exe" size="12781568">
       <assemblyIdentity name="TestOverlay" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>z+l035JXgfF1dZ5Yeb7VSjla1C5sHYx5ybxMsslk4+Q=</dsig:DigestValue>
+        <dsig:DigestValue>mgyBjP9yaaMC4hgC3Bn8T0YHlByVDFG6iJFzyVkkagw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

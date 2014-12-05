@@ -18,6 +18,7 @@
         <tb:TaskbarIcon IconSource="images/Snowflake.ico" ToolTipText="Snowfall">
             <tb:TaskbarIcon.ContextMenu>
                 <ContextMenu>
+                    <CheckBox Content="Always On Top" IsChecked="True" Click="AlwaysOnTopClick"/>
                     <MenuItem Header="snowflakes">
                         <RadioButton GroupName="AmountOfSnowflakes" Checked="snowFlakeAmountChange" Content="almost none"/>
                         <RadioButton GroupName="AmountOfSnowflakes" Checked="snowFlakeAmountChange" Content="Few" />

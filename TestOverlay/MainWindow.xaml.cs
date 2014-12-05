@@ -288,6 +288,19 @@ namespace TestOverlay
 
         #endregion
 
+        private void AlwaysOnTopClick(object sender, RoutedEventArgs e)
+        {
+            CheckBox checker = (sender as CheckBox);
+            if ((bool)checker.IsChecked)
+            {
+                Application.Current.MainWindow.Topmost = true;
+            }
+            else
+            {
+                Application.Current.MainWindow.Topmost = false;
+            }
+        }
+
         #endregion
     }
 }
